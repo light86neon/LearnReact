@@ -1,4 +1,5 @@
 import React from "react";
+import Post from "../Post/Post";
 
 const MyPosts = () => {
     return(
@@ -11,11 +12,12 @@ const MyPosts = () => {
                 New post
             </div>
             <div>
-                Post1
+              <Post message="Hi my dear friend" likeCount="10" />
             </div>
             <div>
-                Post2
+              <Post message="Hello, how are you?"  likeCount={15}/>
             </div>
+
         </div>
     )
 }
